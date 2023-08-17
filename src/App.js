@@ -1,9 +1,14 @@
 import React from 'react'
+import Header from './components/Header'
+import Mainbody from './components/Mainbody'
 
 const App = () => {
   return (
     <div>
-       <h1 className='bg-red font-bold text-green-700 text-[30px]'>App</h1>
+      <div className='mx-[13%]'>
+          <Header/>
+          <Mainbody/>
+       </div>
     </div>
   )
 }
