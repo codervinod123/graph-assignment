@@ -4,12 +4,12 @@ import {AiOutlineArrowUp} from "react-icons/ai"
 const GrowthCard = ({key}) => {
     return (
 
-        <div key={key} className='px-4 py-2 bg-white w-[214px] h-[170px] rounded'>
+        <div key={key} className='px-4 py-2 bg-white w-[250px] h-[170px] rounded'>
             <div className='flex justify-between'>
                 <h1>GROWTH RATE</h1>
-                <button className='bg-green-500 px-1 rounded-full'><AiOutlineArrowUp /></button>
+                <button className='bg-[green] px-1 py-1 rounded-full'><AiOutlineArrowUp className='text-[20px]'/></button>
             </div>
-            <h1 className='text-[30px] flex items-center  justify-center py-6'>+ 99.99 %</h1>
+            <h1 className='text-[35px] flex items-center  justify-center py-6'>+ 99.99 %</h1>
         </div>
 
     )

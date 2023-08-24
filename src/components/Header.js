@@ -14,19 +14,19 @@ const Title=()=>{
 
 const Header = () => {
   return (
-    <div className='items-center py-3 flex justify-between px-2 borde'>
+    <div className='items-center py-3 flex justify-between pr-8'>
 
-        <div className='flex items-center gap-2 border-r'>
+        <div className='flex items-center gap-2 pr-8'>
            <Title/>
         </div>
 
         <div className='flex items-center'>
-           <CiSearch className='bg-gray-100 rounded-l h-10'/> <input type="text" placeholder='Search by company or beands' className='rounded-r w-[500px] pr-8 pl-2 py-2 bg-gray-100 focus:outline-none placeholder:text-[14px]'/>
+           <CiSearch className='bg-gray-100 rounded-l h-8'/> <input type="text" placeholder='Search by company or beands' className='rounded-r w-[500px] pr-8 pl-2 py-1 bg-gray-100 focus:outline-none placeholder:text-[14px]'/>
         </div>
 
-        <div className='flex gap-[4px] border p-[2px] rounded'>
+        <div className='flex gap-[4px] border border-gray-100 p-[2px] rounded'>
             <div>
-                <img className='rounded' width={"30px"} src={User} alt="user" />
+                <img className='rounded' width={"25px"} src={User} alt="user" />
             </div>
             <div>
                 <p className='text-[12px]'>Vinod P</p>

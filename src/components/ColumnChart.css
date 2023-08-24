@@ -1,0 +1,24 @@
+.apexcharts-bar-series rect {
+    stroke: #000; /* Border color */
+    stroke-width: 1px; /* Border width */
+}
+
+
+.apexcharts-menu-icon{
+    display: none;
+}
+
+
+
+.apexcharts-bar-series rect {
+ 
+    stroke: pink; /* Border color */
+    stroke-width: 1px; /* Border width */
+}
+
+
+.apexcharts-legend{
+    display: none !important;
+}
+
+

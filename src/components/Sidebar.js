@@ -4,7 +4,7 @@ import {CiLocationOn} from "react-icons/ci"
 
 const Sidebar = () => {
   return (
-    <div className='bg-white col-span-2 pt-12 flex flex-col justify-between'>
+    <div className='bg-white W-[300px] pt-12 flex flex-col justify-between'>
         <div>
             <div className='py-2 px-2'>
                <ul className='flex flex-col gap-3 border-b pb-4'>
@@ -30,7 +30,7 @@ const Sidebar = () => {
 
         </div>
 
-        <div className=' py-2 px-2'>
+        {/* <div className=' py-2 px-2'>
             <div className='flex gap-2'>
                <CiLocationOn/><span className='text-[12px]'>INDIA</span>
             </div>
@@ -39,7 +39,7 @@ const Sidebar = () => {
                <p className='text-[10px]'>enean  venenati</p>
               
             </div>
-        </div>
+        </div> */}
 
     </div>
   )
