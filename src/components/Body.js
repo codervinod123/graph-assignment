@@ -1,5 +1,7 @@
 import React from 'react'
 import {breadcrumb} from "../constants.js"
+import { growthData } from '../constants.js';
+import { options } from '../constants.js';
 
 import GrowthCard from './GrowthCard.js'
 import LineBar from './LineBar.js';
@@ -10,6 +12,7 @@ import Brandgrowth from './Brandgrowth.js';
 import HorizontalLineChart from "./HorizontalLineChart.js"
 
 import ColumnChart from './ColumnChart.js';
+import Circle from './Circle.js';
 
 const Body = () => {
 
@@ -48,10 +51,10 @@ const Body = () => {
 
             <div className='px-6 py-2 bg-gray-100 flex gap-4 justify-center'>
                 {
-                   emptyArrayCard.map((index)=>{
+                   growthData.map((data,index)=>{
                     return(
                          <>
-                          <GrowthCard key={index}/>
+                          <GrowthCard key={index} data={data}/>
                          </>
                     )
                    }) 
@@ -113,7 +116,7 @@ const Body = () => {
 
            
              <div>
-                <LineChart/>
+                <LineChart />
              </div>
 
              <div className='flex justify-between'>
@@ -225,7 +228,7 @@ const Body = () => {
 
 
              <div>
-               
+               <Circle/>
              </div>
            
           

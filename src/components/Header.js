@@ -14,8 +14,9 @@ const Title=()=>{
 
 const Header = () => {
   return (
-    <div className='items-center py-3 flex justify-between pr-8'>
+    <div >
 
+        <div className='items-center py-3 flex justify-between pr-8 '>
         <div className='flex items-center gap-2 pr-8'>
            <Title/>
         </div>
@@ -32,6 +33,7 @@ const Header = () => {
                 <p className='text-[12px]'>Vinod P</p>
                 <p className='text-[8px]'>vinodpr73@gmail.com</p>
             </div>
+        </div>
         </div>
     </div>
   )
