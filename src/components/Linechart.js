@@ -17,13 +17,13 @@ const generateDayWiseTimeSeries = (baseval, count, yrange,val) => {
     baseval += 86400000;
     i++;
   }
-  console.log(series);
+  console.log(y);
   return series;
 
 };
 
 const LineChart = () => {
-  const [series, setSeries] = useState([
+  const [series] = useState([
     {
       name: 'TIER 1',
       data: generateDayWiseTimeSeries(new Date('1 Jul 2023 GMT').getTime(), 30, {
@@ -45,6 +45,7 @@ const LineChart = () => {
         max: 15,
       },6),
     },
+   
   ]);
 
   const options = {
@@ -89,6 +90,8 @@ const LineChart = () => {
       },
     },
   };
+
+  
 
   return (
     <div id="chart" style={{ border: 'none' }}>
